@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information Page</title>
+    <link rel="stylesheet" href="Info_css.css">
+</head>
+
+<body>
+    <nav>
+        <label class="logo">DonateIndia</label>
+        <ul>
+            <li><a href="./index.html" class="home">Home</a></li>
+            <li><a href="./index.html">Our Mission</a></li>
+            <li><a href="./index.html">FAQs</a></li>
+            <button type="button" class="login">Log In</button>
+        </ul>
+    </nav>
+    <section class="cover">
+        <div id="box">
+            <div class="container">
+                <h3>Fill in your details</h3>
+                <div class="a1">
+                    <p>First Name:</p>
+                    <input type="text" required>
+                </div>
+                <div class="a2">
+                    <p>Last Name:</p>
+                    <input name="text" required>
+                </div>
+                <div class="a3">
+                    <p>Address:</p>
+                    <input type="text" maxlength="50">
+                </div>
+                <div class="btn_donate">
+                    <form>
+                        <script src="https://checkout.razorpay.com/v1/payment-button.js"
+                            data-payment_button_id="pl_Je7YkUU0HCYV9W" async> </script>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

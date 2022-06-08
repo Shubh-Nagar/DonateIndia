@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#introd {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url('kids1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.title1 h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.title1 a {
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+}
+
+
+.b2 {
+    border: 2px solid #ff5326;
+    border-radius: 1px;
+    color: white;
+    font-weight: 500;
+    background-color: #ff5326;
+    font-size: 20px;
+}
+
+.b2:hover {
+    color: #ff5326;
+    transition: 0.3s ease;
+    background: transparent;
+}
+
+#learn {
+    font-size: 20px;
+    background-color: white;
+    color: black;
+}
+
+.section-title {
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#sec {
+    width: 50%;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    margin-left: 25%;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+
+#whole {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#whole #box {
+    position: relative;
+    width: 350px;
+    background: #fff;
+    padding: 80px 40px 60px;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.226);
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    transition: 0.8s ease;
+    margin: 30px;
+
+}
+
+.para-fend {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.fend-img {
+    margin-bottom: 10px;
+
+}
+
+#box:hover {
+    transform: scale(1.1);
+}
+
+nav {
+    background-color: white;
+    color: #ff5326;
+    height: 60px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 60px;
+    font-size: 30px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #24262b;
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background: transparent;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px;
+
+    padding-right: 30px;
+}
+
+.logo {
+    margin-left: 15px;
+}
+
+.login {
+    background-color: #ff5326;
+    font-size: 20px;
+    color: white;
+    padding: 7px;
+    border: none;
+    border-radius: 20px;
+}
+
+.login:hover {
+    cursor: pointer;
+}
+
+li a:hover {
+    color: #ff5326;
+    transition: all 0.3s ease;
+}
+
+.home {
+    color: #ff5326;
+    font-weight: 700;
+}
+
+.wrapper h1 {
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    margin-top: 100px;
+}
+
+/*Footer*/
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: #24262b;
+    padding: 70px 0;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+
+}
+
+.footer-col h4 {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #ff5326;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #bbb;
+    font-weight: 300;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: white;
+
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+    transition: all 0.5s ease;
+    font-size: 18px;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: white;
+}
+
+
+/*FAQs*/
+
+
+.title {
+    border: none;
+    border-radius: 3px;
+    width: 45%;
+    margin: auto;
+    display: flex;
+    padding: 70px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 200px;
+    margin-top: 100px;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.155);
+}
+
+#h4 {
+
+    font-family: "poppins";
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.title:hover {
+    transition-duration: 0.5s;
+    transform: scaleZ(0.3);
+    box-shadow: 0 15px 45px rgb(0 0 0 / 23%);
+}
+
+#img1 {
+    max-width: 30%;
+    margin-left: 200px;
+    margin: auto;
+    display: block;
+    image-orientation: inherit;
+}
+
+#info {
+    text-align: center;
+    font-family: "poppins";
+    font-size: 20px;
+    color: #24262b;
+    margin-top: 20px;
+}
+
+.btn1 {
+    margin: 30px;
+    color: #ff5326;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 7px;
+    font-size: 15px;
+    border-radius: 3px;
+    border-color: #ff5326;
+    margin-bottom: -25px;
+    font-family: 'montserrat';
+}
+
+.btn2 {
+    margin: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 3px;
+    padding: 7px;
+    color: #ff5326;
+    background-color: white;
+    font-size: 15px;
+    border-color: #ff5326;
+    margin-bottom: -25px;
+    font-family: 'montserrat';
+}
+
+.btn1:hover {
+    cursor: pointer;
+}
+
+.btn2:hover {
+    cursor: pointer;
+}
+
+.underline {
+    display: block;
+}
+
+.para {
+    display: block;
+}
